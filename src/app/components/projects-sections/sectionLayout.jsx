@@ -31,7 +31,7 @@ const SectionLayout = () => {
           <p className="text-sm md:text-[1rem] text-muted select-none pointer-events-none tracking-wider">
             {projectSections.engineering.description}
           </p>
-          <Link href={'/components/project-details/data-engineering'}>
+          <Link href={'/project-details/data-engineering'}>
             <motion.button
               whileTap={{scale: 0.8}}
               whileHover={{scale: 1.1, color: "#EBDE67"}} 
@@ -58,7 +58,7 @@ const SectionLayout = () => {
           <p className="text-sm md:text-[1rem] text-muted select-none pointer-events-none tracking-wider">
             {projectSections.frontend.description}
           </p>
-          <Link href={"/components/project-details/frontend"}>
+          <Link href={"/project-details/frontend"}>
             <motion.button
               whileTap={{scale: 0.8}}
               whileHover={{scale: 1.1, color: "#EBDE67"}} 
