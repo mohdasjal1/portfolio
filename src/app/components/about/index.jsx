@@ -117,29 +117,9 @@ const AboutDetails = () => {
           </div>
         </AnimateLayout>
 
-        {/* GitHub Stats */}
-        <AnimateLayout
-          className={"col-span-full sm:col-span-5 md:col-span-4 !p-0 bg-gray-800 border border-gray-600 rounded-xl"}
-        >
-          <img
-            className="w-full h-auto rounded-xl"
-            src="https://github-readme-stats.vercel.app/api/top-langs?username=mohdasjal1&theme=dark&hide_border=true&title_color=22d3ee&text_color=FFFFFF&icon_color=22d3ee&text_bold=false&bg_color=1f2937"
-            alt="Asjal Github Languages"
-            loading="lazy"
-          />
-        </AnimateLayout>
+        
 
-        <AnimateLayout
-          className={"col-span-full sm:col-span-7 md:col-span-8 !p-0 bg-gray-800 border border-gray-600 rounded-xl"}
-        >
-          <img
-            className="w-full h-auto rounded-xl"
-            src="https://github-readme-stats.vercel.app/api?username=mohdasjal1&theme=dark&hide_border=true&title_color=22d3ee&text_color=FFFFFF&icon_color=22d3ee&text_bold=false&bg_color=1f2937&show_icons=true"
-            alt="Asjal Github Stats"
-            loading="lazy"
-          />
-        </AnimateLayout>
-
+        
         {/* Technologies Section */}
         <AnimateLayout className={"col-span-full bg-gray-800 border border-gray-600 rounded-xl p-6"}>
           <div className="flex flex-wrap items-center justify-center gap-4">
