@@ -31,7 +31,7 @@ const ProjectLayout = () => {
           {/* image */}
           <Image
             src={project.image}
-            alt="COVID Data Pipeline Architecture Diagram"
+            alt={project.name}
             width={400}
             height={300}
             className="w-full h-[50%] sm:h-[60%] md:h-[50%] lg:h-[55%] 2xl:h-[55%] object-fill rounded-xl object-center select-none pointer-events-none"
