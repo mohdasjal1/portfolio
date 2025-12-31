@@ -1,7 +1,7 @@
 'use client'
 import React from "react";
 import dataEngineering from "../../../../public/section-images/data-engineering.png";
-import frontend from "../../../../public/section-images/frontend-development.jpg";
+import frontend from "../../../../public/section-images/frontend-development.png";
 import Image from "next/image";
 import Link from "next/link";
 import {motion} from 'framer-motion'
